@@ -1,186 +1,6 @@
 [
   {
     "id": 1,
-    "titulo": "Amanecer en Sacsayhuamán",
-    "artista": "Los Apus",
-    "genero": "Folklore",
-    "duracion": 245,
-    "puntuacion": 17,
-    "archivo": null
-  },
-  {
-    "id": 2,
-    "titulo": "Camino al Qoricancha",
-    "artista": "Inti Wasi",
-    "genero": "Folklore",
-    "duracion": 198,
-    "puntuacion": 14,
-    "archivo": null
-  },
-  {
-    "id": 3,
-    "titulo": "Neón de Medianoche",
-    "artista": "Pixel Rain",
-    "genero": "Electrónica",
-    "duracion": 312,
-    "puntuacion": 12,
-    "archivo": null
-  },
-  {
-    "id": 4,
-    "titulo": "Lluvia de Marzo",
-    "artista": "Ana Quispe",
-    "genero": "Balada",
-    "duracion": 221,
-    "puntuacion": 16,
-    "archivo": null
-  },
-  {
-    "id": 5,
-    "titulo": "Ruta 40",
-    "artista": "Los Caminantes del Sur",
-    "genero": "Rock",
-    "duracion": 276,
-    "puntuacion": 15,
-    "archivo": null
-  },
-  {
-    "id": 6,
-    "titulo": "Cumbia del Valle",
-    "artista": "Sol Andino",
-    "genero": "Cumbia",
-    "duracion": 183,
-    "puntuacion": 13,
-    "archivo": null
-  },
-  {
-    "id": 7,
-    "titulo": "Horizonte",
-    "artista": "Marea Alta",
-    "genero": "Pop",
-    "duracion": 205,
-    "puntuacion": 11,
-    "archivo": null
-  },
-  {
-    "id": 8,
-    "titulo": "Silencio de Piedra",
-    "artista": "Yawar",
-    "genero": "Rock",
-    "duracion": 334,
-    "puntuacion": 18,
-    "archivo": null
-  },
-  {
-    "id": 9,
-    "titulo": "Danza de las Montañas",
-    "artista": "Inti Wasi",
-    "genero": "Folklore",
-    "duracion": 267,
-    "puntuacion": 9,
-    "archivo": null
-  },
-  {
-    "id": 10,
-    "titulo": "Brisa Tropical",
-    "artista": "Sol Andino",
-    "genero": "Cumbia",
-    "duracion": 172,
-    "puntuacion": 10,
-    "archivo": null
-  },
-  {
-    "id": 11,
-    "titulo": "Latidos",
-    "artista": "Pixel Rain",
-    "genero": "Electrónica",
-    "duracion": 241,
-    "puntuacion": 14,
-    "archivo": null
-  },
-  {
-    "id": 12,
-    "titulo": "Carta a Mamá",
-    "artista": "Ana Quispe",
-    "genero": "Balada",
-    "duracion": 289,
-    "puntuacion": 19,
-    "archivo": null
-  },
-  {
-    "id": 13,
-    "titulo": "Fuego Lento",
-    "artista": "Marea Alta",
-    "genero": "Pop",
-    "duracion": 194,
-    "puntuacion": 12,
-    "archivo": null
-  },
-  {
-    "id": 14,
-    "titulo": "Vuelo del Cóndor",
-    "artista": "Los Apus",
-    "genero": "Folklore",
-    "duracion": 358,
-    "puntuacion": 20,
-    "archivo": null
-  },
-  {
-    "id": 15,
-    "titulo": "Mañana Será",
-    "artista": "Los Caminantes del Sur",
-    "genero": "Rock",
-    "duracion": 227,
-    "puntuacion": 8,
-    "archivo": null
-  },
-  {
-    "id": 16,
-    "titulo": "Eco Digital",
-    "artista": "Pixel Rain",
-    "genero": "Electrónica",
-    "duracion": 263,
-    "puntuacion": 7,
-    "archivo": null
-  },
-  {
-    "id": 17,
-    "titulo": "Bajo la Luna",
-    "artista": "Yawar",
-    "genero": "Rock",
-    "duracion": 214,
-    "puntuacion": 15,
-    "archivo": null
-  },
-  {
-    "id": 18,
-    "titulo": "Primavera",
-    "artista": "Marea Alta",
-    "genero": "Pop",
-    "duracion": 168,
-    "puntuacion": 6,
-    "archivo": null
-  },
-  {
-    "id": 19,
-    "titulo": "Nostalgia",
-    "artista": "Ana Quispe",
-    "genero": "Balada",
-    "duracion": 302,
-    "puntuacion": 17,
-    "archivo": null
-  },
-  {
-    "id": 20,
-    "titulo": "Fiesta en la Plaza",
-    "artista": "Sol Andino",
-    "genero": "Cumbia",
-    "duracion": 189,
-    "puntuacion": 16,
-    "archivo": null
-  },
-  {
-    "id": 21,
     "titulo": "Tono de prueba - Escala mayor",
     "artista": "Generador de tonos",
     "genero": "Prueba",
@@ -189,7 +9,7 @@
     "archivo": "tono_1.wav"
   },
   {
-    "id": 22,
+    "id": 2,
     "titulo": "Tono de prueba - Arpegio menor",
     "artista": "Generador de tonos",
     "genero": "Prueba",
@@ -198,7 +18,7 @@
     "archivo": "tono_2.wav"
   },
   {
-    "id": 23,
+    "id": 3,
     "titulo": "Tono de prueba - Pentatónica",
     "artista": "Generador de tonos",
     "genero": "Prueba",
@@ -207,7 +27,7 @@
     "archivo": "tono_3.wav"
   },
   {
-    "id": 24,
+    "id": 4,
     "titulo": "Tono de prueba - Graves",
     "artista": "Generador de tonos",
     "genero": "Prueba",
@@ -216,12 +36,183 @@
     "archivo": "tono_4.wav"
   },
   {
-  "id": 25,
+  "id": 5,
   "titulo": "El Condor Pasa",
   "artista": "Leo Rojas",
   "genero": "Folklore",
   "duracion": 240,
   "puntuacion": 18,
   "archivo": "Leo Rojas - El Condor Pasa - floklore.mp3"
-}
+}, 
+  {
+    "id": 6,
+    "titulo": "Bichote (Intro Hype)",
+    "artista": "El Bogueto, Dei V",
+    "genero": "Reggaeton",
+    "duracion": 259,
+    "puntuacion": 0,
+    "archivo": "100 - El Bogueto, Dei V - Bichote - Dj Danny - Reggaeton - Intro Hype.mp3"
+  },
+  {
+    "id": 7,
+    "titulo": "Yo Perreo Sola x EoO (Mashup)",
+    "artista": "Bad Bunny",
+    "genero": "Reggaeton",
+    "duracion": 365,
+    "puntuacion": 0,
+    "archivo": "102 - Bad Bunny - Yo Perreo Sola x EoO Alex Vip Mashup.mp3"
+  },
+  {
+    "id": 8,
+    "titulo": "Muevelo (Transition)",
+    "artista": "Lirico En La Casa",
+    "genero": "Reggaeton",
+    "duracion": 219,
+    "puntuacion": 0,
+    "archivo": "100 - 118 - Lirico En La Casa - Muevelo Alex Vip Transition.mp3"
+  },
+  {
+    "id": 9,
+    "titulo": "Singamo (Hype Intro)",
+    "artista": "Tokischa, Yomel El Meloso",
+    "genero": "Dembow",
+    "duracion": 137,
+    "puntuacion": 0,
+    "archivo": "114 - Tokischa x Yomel El Meloso - Singamo Alex Vip Hype Intro.mp3"
+  },
+  {
+    "id": 10,
+    "titulo": "Bichote (Intro Outro)",
+    "artista": "El Bogueto, Dei V",
+    "genero": "Reggaeton",
+    "duracion": 240,
+    "puntuacion": 0,
+    "archivo": "100 - El Bogueto, Dei V - Bichote - Dj Danny - Reggaeton - Intro Outro.mp3"
+  },
+  {
+    "id": 11,
+    "titulo": "Mujeres Solteras (Intro Outro)",
+    "artista": "Gino Mella, King Savagge, Brray",
+    "genero": "Reggaeton",
+    "duracion": 223,
+    "puntuacion": 0,
+    "archivo": "105 - Gino Mella Ft, King Savagge, Brray - Mujeres Solteras - Dj Danny - Reggaeton - Intro Outro.mp3"
+  },
+  {
+    "id": 12,
+    "titulo": "PANTI Y COLALE 2.0 (Acapella Intro)",
+    "artista": "El Alfa, De La Ghetto, Zion",
+    "genero": "Dembow",
+    "duracion": 301,
+    "puntuacion": 0,
+    "archivo": "127 - El Alfa, De La Ghetto, Zion - PANTI Y COLALE 2.0 Alex Vip Acapella Intro.mp3"
+  },
+  {
+    "id": 13,
+    "titulo": "Que Vuelta (Intro Outro)",
+    "artista": "Feid",
+    "genero": "Reggaeton",
+    "duracion": 187,
+    "puntuacion": 0,
+    "archivo": "077 - Feid - Que Vuelta Vox - Dj Danny - Reggaeton - Intro Outro.mp3"
+  },
+  {
+    "id": 14,
+    "titulo": "Que Vuelta (Intro Acapella Break)",
+    "artista": "Feid",
+    "genero": "Reggaeton",
+    "duracion": 187,
+    "puntuacion": 0,
+    "archivo": "077 - Feid - Que Vuelta Vox - Dj Danny - Reggaeton - Intro Acapella Break.mp3"
+  },
+  {
+    "id": 15,
+    "titulo": "Chica 305 (Intro Acapella Break)",
+    "artista": "John Summit, Feid",
+    "genero": "Afro House",
+    "duracion": 210,
+    "puntuacion": 0,
+    "archivo": "128 - John Summit, Feid - Chica 305 - Dj Danny - Afro House - Intro Acapella Break.mp3"
+  },
+  {
+    "id": 16,
+    "titulo": "Mujeres Solteras (Intro Breakdown)",
+    "artista": "Gino Mella, King Savagge, Brray",
+    "genero": "Reggaeton",
+    "duracion": 259,
+    "puntuacion": 0,
+    "archivo": "105 - Gino Mella Ft, King Savagge, Brray - Mujeres Solteras - Dj Danny - Reggaeton - Intro Breakdown.mp3"
+  },
+  {
+    "id": 17,
+    "titulo": "Una Aventura (Hype Intro)",
+    "artista": "Ozuna",
+    "genero": "Reggaeton",
+    "duracion": 192,
+    "puntuacion": 0,
+    "archivo": "087 - Ozuna - Una Aventura Alex Vip Hype Intro.mp3"
+  },
+  {
+    "id": 18,
+    "titulo": "Caserio Session Rkt 6 (Breakshow Mashup)",
+    "artista": "Dj Mars",
+    "genero": "RKT",
+    "duracion": 165,
+    "puntuacion": 0,
+    "archivo": "102 - Caserio Session Rkt 6 - Breakshow Marsshup - Dj Mars.m4a"
+  },
+  {
+    "id": 19,
+    "titulo": "Caducaste (Intro Breakdown)",
+    "artista": "Zion, Chencho Corleone",
+    "genero": "Reggaeton",
+    "duracion": 282,
+    "puntuacion": 0,
+    "archivo": "092 - Zion Ft, Chencho Corleone - Caducaste - Dj Danny - Reggaeton - Intro Breakdown.mp3"
+  },
+  {
+    "id": 20,
+    "titulo": "Trankaito (Acapella Intro)",
+    "artista": "Feid",
+    "genero": "Reggaeton",
+    "duracion": 162,
+    "puntuacion": 0,
+    "archivo": "090 - Feid - Trankaito Alex Vip Acapella Intro.mp3"
+  },
+  {
+    "id": 21,
+    "titulo": "Llegamos A La Disco (Hype Flow)",
+    "artista": "Daddy Yankee",
+    "genero": "Reggaeton",
+    "duracion": 494,
+    "puntuacion": 0,
+    "archivo": "090 - Daddy Yankee - Llegamos A La Disco Alex Vip Hype Flow.mp3"
+  },
+  {
+    "id": 22,
+    "titulo": "Caducaste (Intro Outro)",
+    "artista": "Zion, Chencho Corleone",
+    "genero": "Reggaeton",
+    "duracion": 240,
+    "puntuacion": 0,
+    "archivo": "092 - Zion Ft, Chencho Corleone - Caducaste - Dj Danny - Reggaeton - Intro Outro.mp3"
+  },
+  {
+    "id": 23,
+    "titulo": "Volando Remix (Acapella Intro)",
+    "artista": "Mora, Bad Bunny, Sech",
+    "genero": "Reggaeton",
+    "duracion": 256,
+    "puntuacion": 0,
+    "archivo": "088 - Mora, Bad Bunny, Sech - Volando Remix Alex Vip Acapella Intro.mp3"
+  },
+  {
+    "id": 24,
+    "titulo": "Caserio Session Rkt 6 (Openshow Mashup)",
+    "artista": "Dj Mars",
+    "genero": "RKT",
+    "duracion": 155,
+    "puntuacion": 0,
+    "archivo": "102 - Caserio Session Rkt 6 - Openshow Marsshup - Dj Mars.m4a"
+  }
 ]
