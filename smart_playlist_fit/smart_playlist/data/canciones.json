@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "titulo": "Amanecer en Sacsayhuamán",
+    "artista": "Los Apus",
+    "genero": "Folklore",
+    "duracion": 245,
+    "puntuacion": 17,
+    "archivo": null
+  },
+  {
+    "id": 2,
+    "titulo": "Camino al Qoricancha",
+    "artista": "Inti Wasi",
+    "genero": "Folklore",
+    "duracion": 198,
+    "puntuacion": 14,
+    "archivo": null
+  },
+  {
+    "id": 3,
+    "titulo": "Neón de Medianoche",
+    "artista": "Pixel Rain",
+    "genero": "Electrónica",
+    "duracion": 312,
+    "puntuacion": 12,
+    "archivo": null
+  },
+  {
+    "id": 4,
+    "titulo": "Lluvia de Marzo",
+    "artista": "Ana Quispe",
+    "genero": "Balada",
+    "duracion": 221,
+    "puntuacion": 16,
+    "archivo": null
+  },
+  {
+    "id": 5,
+    "titulo": "Ruta 40",
+    "artista": "Los Caminantes del Sur",
+    "genero": "Rock",
+    "duracion": 276,
+    "puntuacion": 15,
+    "archivo": null
+  },
+  {
+    "id": 6,
+    "titulo": "Cumbia del Valle",
+    "artista": "Sol Andino",
+    "genero": "Cumbia",
+    "duracion": 183,
+    "puntuacion": 13,
+    "archivo": null
+  },
+  {
+    "id": 7,
+    "titulo": "Horizonte",
+    "artista": "Marea Alta",
+    "genero": "Pop",
+    "duracion": 205,
+    "puntuacion": 11,
+    "archivo": null
+  },
+  {
+    "id": 8,
+    "titulo": "Silencio de Piedra",
+    "artista": "Yawar",
+    "genero": "Rock",
+    "duracion": 334,
+    "puntuacion": 18,
+    "archivo": null
+  },
+  {
+    "id": 9,
+    "titulo": "Danza de las Montañas",
+    "artista": "Inti Wasi",
+    "genero": "Folklore",
+    "duracion": 267,
+    "puntuacion": 9,
+    "archivo": null
+  },
+  {
+    "id": 10,
+    "titulo": "Brisa Tropical",
+    "artista": "Sol Andino",
+    "genero": "Cumbia",
+    "duracion": 172,
+    "puntuacion": 10,
+    "archivo": null
+  },
+  {
+    "id": 11,
+    "titulo": "Latidos",
+    "artista": "Pixel Rain",
+    "genero": "Electrónica",
+    "duracion": 241,
+    "puntuacion": 14,
+    "archivo": null
+  },
+  {
+    "id": 12,
+    "titulo": "Carta a Mamá",
+    "artista": "Ana Quispe",
+    "genero": "Balada",
+    "duracion": 289,
+    "puntuacion": 19,
+    "archivo": null
+  },
+  {
+    "id": 13,
+    "titulo": "Fuego Lento",
+    "artista": "Marea Alta",
+    "genero": "Pop",
+    "duracion": 194,
+    "puntuacion": 12,
+    "archivo": null
+  },
+  {
+    "id": 14,
+    "titulo": "Vuelo del Cóndor",
+    "artista": "Los Apus",
+    "genero": "Folklore",
+    "duracion": 358,
+    "puntuacion": 20,
+    "archivo": null
+  },
+  {
+    "id": 15,
+    "titulo": "Mañana Será",
+    "artista": "Los Caminantes del Sur",
+    "genero": "Rock",
+    "duracion": 227,
+    "puntuacion": 8,
+    "archivo": null
+  },
+  {
+    "id": 16,
+    "titulo": "Eco Digital",
+    "artista": "Pixel Rain",
+    "genero": "Electrónica",
+    "duracion": 263,
+    "puntuacion": 7,
+    "archivo": null
+  },
+  {
+    "id": 17,
+    "titulo": "Bajo la Luna",
+    "artista": "Yawar",
+    "genero": "Rock",
+    "duracion": 214,
+    "puntuacion": 15,
+    "archivo": null
+  },
+  {
+    "id": 18,
+    "titulo": "Primavera",
+    "artista": "Marea Alta",
+    "genero": "Pop",
+    "duracion": 168,
+    "puntuacion": 6,
+    "archivo": null
+  },
+  {
+    "id": 19,
+    "titulo": "Nostalgia",
+    "artista": "Ana Quispe",
+    "genero": "Balada",
+    "duracion": 302,
+    "puntuacion": 17,
+    "archivo": null
+  },
+  {
+    "id": 20,
+    "titulo": "Fiesta en la Plaza",
+    "artista": "Sol Andino",
+    "genero": "Cumbia",
+    "duracion": 189,
+    "puntuacion": 16,
+    "archivo": null
+  },
+  {
+    "id": 21,
+    "titulo": "Tono de prueba - Escala mayor",
+    "artista": "Generador de tonos",
+    "genero": "Prueba",
+    "duracion": 64,
+    "puntuacion": 14,
+    "archivo": "tono_1.wav"
+  },
+  {
+    "id": 22,
+    "titulo": "Tono de prueba - Arpegio menor",
+    "artista": "Generador de tonos",
+    "genero": "Prueba",
+    "duracion": 48,
+    "puntuacion": 9,
+    "archivo": "tono_2.wav"
+  },
+  {
+    "id": 23,
+    "titulo": "Tono de prueba - Pentatónica",
+    "artista": "Generador de tonos",
+    "genero": "Prueba",
+    "duracion": 54,
+    "puntuacion": 12,
+    "archivo": "tono_3.wav"
+  },
+  {
+    "id": 24,
+    "titulo": "Tono de prueba - Graves",
+    "artista": "Generador de tonos",
+    "genero": "Prueba",
+    "duracion": 45,
+    "puntuacion": 5,
+    "archivo": "tono_4.wav"
+  }
+]

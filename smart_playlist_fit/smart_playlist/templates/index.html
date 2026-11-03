@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Playlist</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</head>
+<body>
+  <header class="cabecera">
+    <h1>🎧 Smart <span>Playlist</span></h1>
+    <p>Merge Sort · Greedy · Programación Dinámica</p>
+  </header>
+
+  <div id="aviso" class="aviso"></div>
+
+  <main class="layout">
+    <!-- ================= COLUMNA IZQUIERDA ================= -->
+    <div class="col">
+      <!-- Catálogo -->
+      <section class="card">
+        <div class="card-cab">
+          <h2>Catálogo</h2><span id="contador" class="muted"></span>
+        </div>
+        <div class="fila">
+          <label>Ordenar por
+            <select id="selCriterio">
+              <option value="titulo">Título</option>
+              <option value="artista">Artista</option>
+              <option value="duracion">Duración</option>
+              <option value="puntuacion">Puntuación</option>
+            </select>
+          </label>
+          <label>Orden
+            <select id="selOrden">
+              <option value="asc">Ascendente</option>
+              <option value="desc">Descendente</option>
+            </select>
+          </label>
+        </div>
+        <div class="fila busqueda">
+          <input id="textoBusqueda" placeholder="Buscar por prefijo (búsqueda binaria)…">
+          <select id="buscarEn">
+            <option value="titulo">en Título</option>
+            <option value="artista">en Artista</option>
+          </select>
+          <button class="btn sec" type="button" id="btnBuscar">Buscar</button>
+          <button class="btn sec" type="button" id="btnLimpiarBusqueda" hidden>Limpiar</button>
+        </div>
+        <p class="nota" id="notaBusqueda"></p>
+        <div class="pestanas">
+          <button type="button" class="pestana activa" data-vista="audio" id="tabAudio">🎵 Con audio</button>
+          <button type="button" class="pestana" data-vista="ejemplos" id="tabEjemplos">📋 Ejemplos</button>
+        </div>
+        <p class="nota" id="notaVista"></p>
+        <div class="tabla-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th data-criterio="titulo" class="orden">Título</th>
+                <th data-criterio="artista" class="orden">Artista</th>
+                <th>Género</th>
+                <th data-criterio="duracion" class="orden">Duración</th>
+                <th data-criterio="puntuacion" class="orden">Punt.</th>
+                <th>▶</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="tbodyCatalogo"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Registrar canción -->
+      <section class="card">
+        <h2 id="tituloForm">Registrar canción</h2>
+        <form id="formCancion" class="form-grid">
+          <input name="id" id="campoId" type="number" min="1" placeholder="ID (vacío = automático)">
+          <input name="titulo" placeholder="Título" required>
+          <input name="artista" placeholder="Artista" required>
+          <input name="genero" placeholder="Género">
+          <input name="duracion" type="number" min="1" placeholder="Duración (segundos)" required>
+          <input name="puntuacion" type="number" min="1" max="20" placeholder="Puntuación 1-20" required>
+          <button class="btn" type="submit" id="btnGuardar">Guardar</button>
+          <button class="btn sec" type="button" id="btnCancelarEdicion" hidden>Cancelar</button>
+        </form>
+      </section>
+
+      <!-- Subir audio -->
+      <section class="card">
+        <h2>Subir audio</h2>
+        <p class="muted">Puedes elegir varios archivos a la vez (se usan sus metadatos). Con un solo archivo, los campos que escribas tienen prioridad.</p>
+        <form id="formAudio" class="form-grid">
+          <input name="audio" type="file" accept="audio/*" multiple required>
+          <input name="titulo" placeholder="Título (opcional)">
+          <input name="artista" placeholder="Artista (opcional)">
+          <input name="genero" placeholder="Género (opcional)">
+          <input name="duracion" type="number" min="1" placeholder="Duración seg (solo si no se detecta)">
+          <input name="puntuacion" type="number" min="1" max="20" value="10" placeholder="Puntuación 1-20">
+          <button class="btn" type="submit">Subir</button>
+        </form>
+      </section>
+
+      <!-- Escanear carpeta -->
+      <section class="card">
+        <h2>Escanear carpeta</h2>
+        <p class="muted">Busca .mp3, .wav, .ogg y .flac en la carpeta y subcarpetas. Si el audio no trae género, se usa el nombre de la subcarpeta (Música/Rock/tema.mp3 → Rock).</p>
+        <form id="formEscanear" class="fila">
+          <input id="rutaCarpeta" placeholder="C:\Users\tu_usuario\Music" required>
+          <button class="btn" type="submit">Escanear</button>
+        </form>
+        <div id="resEscaneo"></div>
+      </section>
+    </div>
+
+    <!-- ================= COLUMNA DERECHA ================= -->
+    <div class="col">
+      <!-- Reproductor -->
+      <section class="card reproductor" id="reproductor">
+        <div class="vinilo-wrap">
+          <div class="vinilo"><div class="etiqueta" id="pInicial">♪</div></div>
+        </div>
+        <div class="ecualizador" id="ecualizador"></div>
+        <h3 id="pTitulo">Nada en reproducción</h3>
+        <p id="pArtista" class="muted">Genera una playlist o pulsa ▶ en el catálogo</p>
+        <p id="pAviso" class="muted aviso-audio"></p>
+
+        <input type="range" id="progreso" min="0" max="1000" value="0">
+        <div class="tiempos"><span id="tActual">0:00</span><span id="tTotal">0:00</span></div>
+
+        <div class="controles">
+          <button class="ctl" id="btnShuffle" title="Aleatorio (S)">🔀</button>
+          <button class="ctl" id="btnPrev" title="Anterior">⏮</button>
+          <button class="ctl grande" id="btnPlay" title="Play / Pausa">▶</button>
+          <button class="ctl" id="btnNext" title="Siguiente">⏭</button>
+          <button class="ctl" id="btnRepeat" title="Repetir (R): no / todas / una">🔁</button>
+        </div>
+        <label class="volumen">🔊
+          <input type="range" id="volumen" min="0" max="1" step="0.01" value="0.8">
+        </label>
+
+        <p class="nota" style="text-align:center">Atajos: Espacio ▶/⏸ · ←/→ anterior/siguiente · ↑/↓ volumen · S aleatorio · R repetir</p>
+        <h4>Cola</h4>
+        <ol id="cola" class="cola"><li class="muted">Vacía</li></ol>
+        <audio id="audio" preload="metadata"></audio>
+      </section>
+
+      <!-- Generador -->
+      <section class="card">
+        <h2>Generar playlist</h2>
+        <form id="formPlaylist" class="form-grid">
+          <label>Tiempo máximo (segundos) <small id="tiempoHint" class="muted">= 10:00</small>
+            <input id="tiempoMax" type="number" min="1" value="600" required>
+          </label>
+          <label>Algoritmo
+            <select id="algoritmo">
+              <option value="greedy">Greedy (puntuación/duración)</option>
+              <option value="pd">Programación Dinámica (mochila 0/1)</option>
+            </select>
+          </label>
+          <label class="chk"><input type="checkbox" id="incluirEjemplos" checked> Incluir ejemplos (sin audio)</label>
+          <button class="btn" type="submit">Generar</button>
+          <button class="btn sec" type="button" id="btnComparar">Comparar ambos</button>
+        </form>
+        <div id="resPlaylist"></div>
+      </section>
+
+      <!-- Comparación -->
+      <section class="card" id="cardComparacion" hidden>
+        <h2>Greedy vs Programación Dinámica</h2>
+        <div id="resComparacion"></div>
+      </section>
+
+      <!-- Playlists guardadas -->
+      <section class="card">
+        <h2>Playlists guardadas</h2>
+        <div id="resPlaylistsGuardadas"><p class="muted">Aún no guardaste ninguna. Genera una playlist y pulsa 💾 Guardar.</p></div>
+      </section>
+
+      <!-- Tabla de PD -->
+      <section class="card">
+        <h2>Tabla de Programación Dinámica (paso a paso)</h2>
+        <p class="muted">Una canción por línea: <code>nombre, duración en segundos, puntuación</code> (máx. 12). Muestra cómo se llena <code>dp[i][w]</code> y cómo se recupera la solución.</p>
+        <form id="formTablaPD" class="form-grid">
+          <textarea id="tablaCanciones" rows="4" spellcheck="false">Canción A, 120, 6
+Canción B, 240, 10
+Canción C, 360, 12</textarea>
+          <label>Tiempo disponible (segundos)
+            <input id="tablaTiempo" type="number" min="1" value="600">
+          </label>
+          <button class="btn" type="submit">Construir tabla</button>
+        </form>
+        <div id="resTablaPD"></div>
+      </section>
+
+      <!-- Experimentos -->
+      <section class="card">
+        <h2>Experimentos de rendimiento</h2>
+        <p class="muted">Catálogos sintéticos de distinto tamaño (30 min de tiempo máximo). Mide Merge Sort, Greedy y PD.</p>
+        <div class="fila-botones">
+          <button class="btn sec" type="button" id="btnExperimentos">Ejecutar (n = 50 … 2000)</button>
+        </div>
+        <div id="graficoExperimentos"></div>
+        <div id="resExperimentos"></div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
