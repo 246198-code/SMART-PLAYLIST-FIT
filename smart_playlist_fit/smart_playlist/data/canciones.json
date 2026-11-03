@@ -610,5 +610,726 @@
     "duracion": 265,
     "puntuacion": 0,
     "archivo": "The Strokes - Under Cover of Darkness (Official Video)(MP3_320K).mp3"
+  }, 
+    {
+    "id": 69,
+    "titulo": "West End girls",
+    "artista": "Pet Shop Boys",
+    "genero": "Synth-pop",
+    "duracion": 240,
+    "puntuacion": 84,
+    "archivo": "Pet Shop Boys - West End girls (84).mp3"
+  },
+  {
+    "id": 70,
+    "titulo": "Sledgehammer",
+    "artista": "Peter Gabriel",
+    "genero": "Pop rock",
+    "duracion": 282,
+    "puntuacion": 86,
+    "archivo": "Peter Gabriel - Sledgehammer (86).mp3"
+  },
+  {
+    "id": 71,
+    "titulo": "Sussudio",
+    "artista": "Phil Collins",
+    "genero": "Pop rock",
+    "duracion": 264,
+    "puntuacion": 85,
+    "archivo": "Phil Collins - Sussudio (85).mp3"
+  },
+  {
+    "id": 72,
+    "titulo": "Appetite",
+    "artista": "Prefab Sprout",
+    "genero": "Sophisti-pop",
+    "duracion": 235,
+    "puntuacion": 85,
+    "archivo": "Prefab Sprout - Appetite (85).mp3"
+  },
+  {
+    "id": 73,
+    "titulo": "When doves cry",
+    "artista": "Prince",
+    "genero": "Funk / Pop",
+    "duracion": 228,
+    "puntuacion": 84,
+    "archivo": "Prince - When doves cry (84).mp3"
+  },
+  {
+    "id": 74,
+    "titulo": "Duel",
+    "artista": "Propaganda",
+    "genero": "Synth-pop",
+    "duracion": 213,
+    "puntuacion": 85,
+    "archivo": "Propaganda - Duel (85).mp3"
+  },
+  {
+    "id": 75,
+    "titulo": "The politics of dancing",
+    "artista": "Re-Flex",
+    "genero": "New wave",
+    "duracion": 234,
+    "puntuacion": 83,
+    "archivo": "Re-Flex - The politics of dancing (83).mp3"
+  },
+  {
+    "id": 76,
+    "titulo": "Never gonna give you up",
+    "artista": "Rick Astley",
+    "genero": "Dance-pop",
+    "duracion": 216,
+    "puntuacion": 87,
+    "archivo": "Rick Astley - Never gonna give you up (87).mp3"
+  },
+  {
+    "id": 77,
+    "titulo": "Dangerous",
+    "artista": "Roxette",
+    "genero": "Pop rock",
+    "duracion": 229,
+    "puntuacion": 88,
+    "archivo": "Roxette - Dangerous (88).mp3"
+  },
+  {
+    "id": 78,
+    "titulo": "Same old scene",
+    "artista": "Roxy Music",
+    "genero": "New wave",
+    "duracion": 233,
+    "puntuacion": 80,
+    "archivo": "Roxy Music - Same old scene (80).mp3"
+  },
+  {
+    "id": 79,
+    "titulo": "The sweetest taboo",
+    "artista": "Sade",
+    "genero": "Soul / Smooth jazz",
+    "duracion": 273,
+    "puntuacion": 85,
+    "archivo": "Sade - The sweetest taboo (85).mp3"
+  },
+  {
+    "id": 80,
+    "titulo": "Don't you (forget about me)",
+    "artista": "Simple Minds",
+    "genero": "New wave",
+    "duracion": 259,
+    "puntuacion": 85,
+    "archivo": "Simple Minds - Don't you (forget about me) (85).mp3"
+  },
+  {
+    "id": 81,
+    "titulo": "Come to my aid",
+    "artista": "Simply Red",
+    "genero": "Soul / Pop",
+    "duracion": 242,
+    "puntuacion": 85,
+    "archivo": "Simply Red - Come to my aid (85).mp3"
+  },
+  {
+    "id": 82,
+    "titulo": "Gold",
+    "artista": "Spandau Ballet",
+    "genero": "New romantic",
+    "duracion": 291,
+    "puntuacion": 83,
+    "archivo": "Spandau Ballet - Gold (83).mp3"
+  },
+  {
+    "id": 83,
+    "titulo": "While you see a chance",
+    "artista": "Steve Winwood",
+    "genero": "Pop rock",
+    "duracion": 311,
+    "puntuacion": 80,
+    "archivo": "Steve Winwood - While you see a chance (80).mp3"
+  },
+  {
+    "id": 84,
+    "titulo": "Edge of seventeen",
+    "artista": "Stevie Nicks",
+    "genero": "Rock",
+    "duracion": 325,
+    "puntuacion": 81,
+    "archivo": "Stevie Nicks - Edge of seventeen (81).mp3"
+  },
+  {
+    "id": 85,
+    "titulo": "Englishman in New York",
+    "artista": "Sting",
+    "genero": "Pop rock",
+    "duracion": 268,
+    "puntuacion": 87,
+    "archivo": "Sting - Englishman in New York (87).mp3"
+  },
+  {
+    "id": 86,
+    "titulo": "Breakout",
+    "artista": "Swing Out Sister",
+    "genero": "Sophisti-pop",
+    "duracion": 226,
+    "puntuacion": 86,
+    "archivo": "Swing Out Sister - Breakout (86).mp3"
+  },
+  {
+    "id": 87,
+    "titulo": "Life's what you make it",
+    "artista": "Talk Talk",
+    "genero": "New wave",
+    "duracion": 265,
+    "puntuacion": 85,
+    "archivo": "Talk Talk - Life's what you make it (85).mp3"
+  },
+  {
+    "id": 88,
+    "titulo": "And she was",
+    "artista": "Talking Heads",
+    "genero": "New wave",
+    "duracion": 218,
+    "puntuacion": 85,
+    "archivo": "Talking Heads - And she was (85).mp3"
+  },
+  {
+    "id": 89,
+    "titulo": "Everybody wants to rule the world",
+    "artista": "Tears for Fears",
+    "genero": "New wave",
+    "duracion": 247,
+    "puntuacion": 85,
+    "archivo": "Tears for Fears - Everybody wants to rule the world (85).mp3"
+  },
+  {
+    "id": 90,
+    "titulo": "Wishing well",
+    "artista": "Terence Trent D'Arby",
+    "genero": "Pop / Soul",
+    "duracion": 210,
+    "puntuacion": 87,
+    "archivo": "Terence Trent D'Arby - Wishing well (87).mp3"
+  },
+  {
+    "id": 91,
+    "titulo": "I don't want a lover",
+    "artista": "Texas",
+    "genero": "Pop rock",
+    "duracion": 297,
+    "puntuacion": 89,
+    "archivo": "Texas - I don't want a lover (89).mp3"
+  },
+  {
+    "id": 92,
+    "titulo": "Games people play",
+    "artista": "The Alan Parsons Project",
+    "genero": "Progressive rock",
+    "duracion": 262,
+    "puntuacion": 80,
+    "archivo": "The Alan Parsons Project - Games people play (80).mp3"
+  },
+  {
+    "id": 93,
+    "titulo": "It doesn't have to be this way",
+    "artista": "The Blow Monkeys",
+    "genero": "New wave",
+    "duracion": 242,
+    "puntuacion": 87,
+    "archivo": "The Blow Monkeys - It doesn't have to be this way (87).mp3"
+  },
+  {
+    "id": 94,
+    "titulo": "Hello again",
+    "artista": "The Cars",
+    "genero": "New wave",
+    "duracion": 227,
+    "puntuacion": 84,
+    "archivo": "The Cars - Hello again (84).mp3"
+  },
+  {
+    "id": 95,
+    "titulo": "Forgotten town",
+    "artista": "The Christians",
+    "genero": "Pop rock",
+    "duracion": 312,
+    "puntuacion": 87,
+    "archivo": "The Christians - Forgotten town (87).mp3"
+  },
+  {
+    "id": 96,
+    "titulo": "In between days",
+    "artista": "The Cure",
+    "genero": "Post-punk",
+    "duracion": 179,
+    "puntuacion": 85,
+    "archivo": "The Cure - In between days (85).mp3"
+  },
+  {
+    "id": 97,
+    "titulo": "Don't you want me",
+    "artista": "The Human League",
+    "genero": "Synth-pop",
+    "duracion": 239,
+    "puntuacion": 81,
+    "archivo": "The Human League - Don't you want me (81).mp3"
+  },
+  {
+    "id": 98,
+    "titulo": "Soul food to go",
+    "artista": "The Manhattan Transfer",
+    "genero": "Vocal jazz",
+    "duracion": 177,
+    "puntuacion": 87,
+    "archivo": "The Manhattan Transfer - Soul food to go (87).mp3"
+  },
+  {
+    "id": 99,
+    "titulo": "Every little thing she does is magic",
+    "artista": "The Police",
+    "genero": "New wave / Rock",
+    "duracion": 257,
+    "puntuacion": 81,
+    "archivo": "The Police - Every little thing she does is magic (81).mp3"
+  },
+  {
+    "id": 100,
+    "titulo": "Don't get me wrong",
+    "artista": "The Pretenders",
+    "genero": "Rock",
+    "duracion": 227,
+    "puntuacion": 86,
+    "archivo": "The Pretenders - Don't get me wrong (86).mp3"
+  },
+  {
+    "id": 101,
+    "titulo": "The whole of the Moon",
+    "artista": "The Waterboys",
+    "genero": "Rock",
+    "duracion": 303,
+    "puntuacion": 85,
+    "archivo": "The Waterboys - The whole of the Moon (85).mp3"
+  },
+  {
+    "id": 102,
+    "titulo": "Typical male",
+    "artista": "Tina Turner",
+    "genero": "Pop rock",
+    "duracion": 259,
+    "puntuacion": 86,
+    "archivo": "Tina Turner - Typical male (86).mp3"
+  },
+  {
+    "id": 103,
+    "titulo": "Africa",
+    "artista": "Toto",
+    "genero": "Pop rock",
+    "duracion": 258,
+    "puntuacion": 82,
+    "archivo": "Toto - Africa (82).mp3"
+  },
+  {
+    "id": 104,
+    "titulo": "I still haven't found what I'm looking for",
+    "artista": "U2",
+    "genero": "Rock",
+    "duracion": 275,
+    "puntuacion": 87,
+    "archivo": "U2 - I still haven't found what I'm looking for (87).mp3"
+  },
+  {
+    "id": 105,
+    "titulo": "Right between the eyes",
+    "artista": "Wax",
+    "genero": "Pop rock",
+    "duracion": 249,
+    "puntuacion": 86,
+    "archivo": "Wax - Right between the eyes (86).mp3"
+  },
+  {
+    "id": 106,
+    "titulo": "Sweet little mystery",
+    "artista": "Wet Wet Wet",
+    "genero": "Pop rock",
+    "duracion": 224,
+    "puntuacion": 87,
+    "archivo": "Wet Wet Wet - Sweet little mystery (87).mp3"
+  },
+  {
+    "id": 107,
+    "titulo": "Owner of a lonely heart",
+    "artista": "Yes",
+    "genero": "Progressive rock",
+    "duracion": 264,
+    "puntuacion": 83,
+    "archivo": "Yes - Owner of a lonely heart (83).mp3"
+  },
+  {
+    "id": 108,
+    "titulo": "Take on me",
+    "artista": "a-ha",
+    "genero": "Synth-pop",
+    "duracion": 230,
+    "puntuacion": 85,
+    "archivo": "a-ha - Take on me (85).mp3"
+  },
+  {
+    "id": 109,
+    "titulo": "Love resurrection",
+    "artista": "Alison Moyet",
+    "genero": "Synth-pop",
+    "duracion": 232,
+    "puntuacion": 84,
+    "archivo": "Alison Moyet - Love resurrection (84).mp3"
+  },
+  {
+    "id": 110,
+    "titulo": "Only time will tell",
+    "artista": "Asia",
+    "genero": "AOR / Rock",
+    "duracion": 288,
+    "puntuacion": 82,
+    "archivo": "Asia - Only time will tell (82).mp3"
+  },
+  {
+    "id": 111,
+    "titulo": "All I need is everything",
+    "artista": "Aztec Camera",
+    "genero": "Jangle pop",
+    "duracion": 233,
+    "puntuacion": 84,
+    "archivo": "Aztec Camera - All I need is everything (84).mp3"
+  },
+  {
+    "id": 112,
+    "titulo": "Nowhere girl",
+    "artista": "B-Movie",
+    "genero": "New wave",
+    "duracion": 278,
+    "puntuacion": 80,
+    "archivo": "B-Movie - Nowhere girl (80).mp3"
+  },
+  {
+    "id": 113,
+    "titulo": "Love in the first degree",
+    "artista": "Bananarama",
+    "genero": "Dance-pop",
+    "duracion": 211,
+    "puntuacion": 88,
+    "archivo": "Bananarama - Love in the first degree (88).mp3"
+  },
+  {
+    "id": 114,
+    "titulo": "Cruising for bruising",
+    "artista": "Basia",
+    "genero": "Sophisti-pop",
+    "duracion": 247,
+    "puntuacion": 89,
+    "archivo": "Basia - Cruising for bruising (89).mp3"
+  },
+  {
+    "id": 115,
+    "titulo": "Right on track",
+    "artista": "Breakfast Club",
+    "genero": "Dance-rock",
+    "duracion": 259,
+    "puntuacion": 87,
+    "archivo": "Breakfast Club - Right on track (87).mp3"
+  },
+  {
+    "id": 116,
+    "titulo": "The way it is",
+    "artista": "Bruce Hornsby & The Range",
+    "genero": "Pop rock",
+    "duracion": 298,
+    "puntuacion": 86,
+    "archivo": "Bruce Hornsby & The Range - The way it is (86).mp3"
+  },
+  {
+    "id": 117,
+    "titulo": "Working with fire and steel",
+    "artista": "China Crisis",
+    "genero": "New wave",
+    "duracion": 218,
+    "puntuacion": 83,
+    "archivo": "China Crisis - Working with fire and steel (83).mp3"
+  },
+  {
+    "id": 118,
+    "titulo": "Ride like the wind",
+    "artista": "Christopher Cross",
+    "genero": "Soft rock",
+    "duracion": 267,
+    "puntuacion": 80,
+    "archivo": "Christopher Cross - Ride like the wind (80).mp3"
+  },
+  {
+    "id": 119,
+    "titulo": "Down to earth",
+    "artista": "Curiosity Killed The Cat",
+    "genero": "Sophisti-pop",
+    "duracion": 254,
+    "puntuacion": 86,
+    "archivo": "Curiosity Killed The Cat - Down to earth (86).mp3"
+  },
+  {
+    "id": 120,
+    "titulo": "Private eyes",
+    "artista": "Daryl Hall & John Oates",
+    "genero": "Blue-eyed soul",
+    "duracion": 205,
+    "puntuacion": 81,
+    "archivo": "Daryl Hall & John Oates - Private eyes (81).mp3"
+  },
+  {
+    "id": 121,
+    "titulo": "Let's dance",
+    "artista": "David Bowie",
+    "genero": "Dance-rock",
+    "duracion": 245,
+    "puntuacion": 83,
+    "archivo": "David Bowie - Let's dance (83).mp3"
+  },
+  {
+    "id": 122,
+    "titulo": "Strangelove",
+    "artista": "Depeche Mode",
+    "genero": "Synth-pop",
+    "duracion": 224,
+    "puntuacion": 87,
+    "archivo": "Depeche Mode - Strangelove (87).mp3"
+  },
+  {
+    "id": 123,
+    "titulo": "Money for nothing",
+    "artista": "Dire Straits",
+    "genero": "Rock",
+    "duracion": 246,
+    "puntuacion": 85,
+    "archivo": "Dire Straits - Money for nothing (85).mp3"
+  },
+  {
+    "id": 124,
+    "titulo": "Notorious",
+    "artista": "Duran Duran",
+    "genero": "New wave",
+    "duracion": 241,
+    "puntuacion": 86,
+    "archivo": "Duran Duran - Notorious (86).mp3"
+  },
+  {
+    "id": 125,
+    "titulo": "Bad love",
+    "artista": "Eric Clapton",
+    "genero": "Blues rock",
+    "duracion": 309,
+    "puntuacion": 89,
+    "archivo": "Eric Clapton - Bad love (89).mp3"
+  },
+  {
+    "id": 126,
+    "titulo": "Sweet dreams (are made of this)",
+    "artista": "Eurythmics",
+    "genero": "Synth-pop",
+    "duracion": 216,
+    "puntuacion": 83,
+    "archivo": "Eurythmics - Sweet dreams (are made of this) (83).mp3"
+  },
+  {
+    "id": 127,
+    "titulo": "Seven wonders",
+    "artista": "Fleetwood Mac",
+    "genero": "Pop rock",
+    "duracion": 213,
+    "puntuacion": 87,
+    "archivo": "Fleetwood Mac - Seven wonders (87).mp3"
+  },
+  {
+    "id": 128,
+    "titulo": "Urgent",
+    "artista": "Foreigner",
+    "genero": "Hard rock",
+    "duracion": 271,
+    "puntuacion": 81,
+    "archivo": "Foreigner - Urgent (81).mp3"
+  },
+  {
+    "id": 129,
+    "titulo": "Invisible touch",
+    "artista": "Genesis",
+    "genero": "Pop rock",
+    "duracion": 208,
+    "puntuacion": 86,
+    "archivo": "Genesis - Invisible touch (86).mp3"
+  },
+  {
+    "id": 130,
+    "titulo": "Faith",
+    "artista": "George Michael",
+    "genero": "Pop",
+    "duracion": 191,
+    "puntuacion": 87,
+    "archivo": "George Michael - Faith (87).mp3"
+  },
+  {
+    "id": 131,
+    "titulo": "The honey thief",
+    "artista": "Hipsway",
+    "genero": "New wave",
+    "duracion": 192,
+    "puntuacion": 86,
+    "archivo": "Hipsway - The honey thief (86).mp3"
+  },
+  {
+    "id": 132,
+    "titulo": "What is love",
+    "artista": "Howard Jones",
+    "genero": "Synth-pop",
+    "duracion": 220,
+    "puntuacion": 83,
+    "archivo": "Howard Jones - What is love (83).mp3"
+  },
+  {
+    "id": 133,
+    "titulo": "The power of love",
+    "artista": "Huey Lewis & The News",
+    "genero": "Pop rock",
+    "duracion": 232,
+    "puntuacion": 85,
+    "archivo": "Huey Lewis & The News - The power of love (85).mp3"
+  },
+  {
+    "id": 134,
+    "titulo": "New sensation",
+    "artista": "INXS",
+    "genero": "New wave / Rock",
+    "duracion": 220,
+    "puntuacion": 87,
+    "archivo": "INXS - New sensation (87).mp3"
+  },
+  {
+    "id": 135,
+    "titulo": "You can't get what you want (till you know what you want)",
+    "artista": "Joe Jackson",
+    "genero": "New wave",
+    "duracion": 292,
+    "puntuacion": 84,
+    "archivo": "Joe Jackson - You can't get what you want (till you know what you want) (84).mp3"
+  },
+  {
+    "id": 136,
+    "titulo": "Shattered dreams",
+    "artista": "Johnny Hates Jazz",
+    "genero": "Sophisti-pop",
+    "duracion": 204,
+    "puntuacion": 88,
+    "archivo": "Johnny Hates Jazz - Shattered dreams (88).mp3"
+  },
+  {
+    "id": 137,
+    "titulo": "One step",
+    "artista": "Kissing the Pink",
+    "genero": "New wave",
+    "duracion": 266,
+    "puntuacion": 86,
+    "archivo": "Kissing the Pink - One step (86).mp3"
+  },
+  {
+    "id": 138,
+    "titulo": "Something about you",
+    "artista": "Level 42",
+    "genero": "Jazz-funk",
+    "duracion": 216,
+    "puntuacion": 85,
+    "archivo": "Level 42 - Something about you (85).mp3"
+  },
+  {
+    "id": 139,
+    "titulo": "All around the world",
+    "artista": "Lisa Stanfield",
+    "genero": "Dance-pop",
+    "duracion": 261,
+    "puntuacion": 89,
+    "archivo": "Lisa Stanfield - All around the world (89).mp3"
+  },
+  {
+    "id": 140,
+    "titulo": "Papa don't preach",
+    "artista": "Madonna",
+    "genero": "Dance-pop",
+    "duracion": 250,
+    "puntuacion": 86,
+    "archivo": "Madonna - Papa don't preach (86).mp3"
+  },
+  {
+    "id": 141,
+    "titulo": "Thriller",
+    "artista": "Michael Jackson",
+    "genero": "Pop",
+    "duracion": 245,
+    "puntuacion": 82,
+    "archivo": "Michael Jackson - Thriller (82).mp3"
+  },
+  {
+    "id": 142,
+    "titulo": "Sweet freedom",
+    "artista": "Michael Mcdonald",
+    "genero": "Soft rock",
+    "duracion": 231,
+    "puntuacion": 86,
+    "archivo": "Michael Mcdonald - Sweet freedom (86).mp3"
+  },
+  {
+    "id": 143,
+    "titulo": "Family man",
+    "artista": "Mike Oldfield",
+    "genero": "Pop rock",
+    "duracion": 226,
+    "puntuacion": 82,
+    "archivo": "Mike Oldfield - Family man (82).mp3"
+  },
+  {
+    "id": 144,
+    "titulo": "True faith",
+    "artista": "New Order",
+    "genero": "Post-punk / Synth-pop",
+    "duracion": 249,
+    "puntuacion": 87,
+    "archivo": "New Order - True faith (87).mp3"
+  },
+  {
+    "id": 145,
+    "titulo": "Wouldn't it be good",
+    "artista": "Nik Kershaw",
+    "genero": "New wave",
+    "duracion": 269,
+    "puntuacion": 84,
+    "archivo": "Nik Kershaw - Wouldn't it be good (84).mp3"
+  },
+  {
+    "id": 146,
+    "titulo": "Secret",
+    "artista": "Orchestral Manoeuvres In The Dark (OMD)",
+    "genero": "Synth-pop",
+    "duracion": 233,
+    "puntuacion": 85,
+    "archivo": "Orchestral Manoeuvres In The Dark (OMD) - Secret (85).mp3"
+  },
+  {
+    "id": 147,
+    "titulo": "Love is a battlefield",
+    "artista": "Pat Benatar",
+    "genero": "Rock",
+    "duracion": 250,
+    "puntuacion": 83,
+    "archivo": "Pat Benatar - Love is a battlefield (83).mp3"
+  },
+  {
+    "id": 148,
+    "titulo": "You can call me Al",
+    "artista": "Paul Simon",
+    "genero": "Pop rock",
+    "duracion": 281,
+    "puntuacion": 86,
+    "archivo": "Paul Simon - You can call me Al (86).mp3"
   }
+
 ]
