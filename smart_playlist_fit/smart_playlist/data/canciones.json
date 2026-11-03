@@ -215,5 +215,13 @@
     "puntuacion": 5,
     "archivo": "tono_4.wav"
   }
-  
+  {
+  "id": 25,
+  "titulo": "El Condor Pasa",
+  "artista": "Leo Rojas",
+  "genero": "Folklore",
+  "duracion": 240,
+  "puntuacion": 18,
+  "archivo": "Leo Rojas - El Condor Pasa - floklore.mp3"
+}
 ]
