@@ -1330,6 +1330,302 @@
     "duracion": 281,
     "puntuacion": 86,
     "archivo": "Paul Simon - You can call me Al (86).mp3"
+  },
+  {
+    "id": 150,
+    "titulo": "Ain't No Mountain High Enough",
+    "artista": "Marvin Gaye & Tammi Terrell",
+    "genero": "Soul",
+    "duracion": 152,
+    "puntuacion": 10,
+    "archivo": "Ain't No Mountain High Enough - Marvin Gaye & Tammi Terrell - Soul.mp3"
+  },
+  {
+    "id": 151,
+    "titulo": "Animal I Have Become",
+    "artista": "Three Days Grace",
+    "genero": "Alternative Metal",
+    "duracion": 231,
+    "puntuacion": 10,
+    "archivo": "Animal I Have Become - Three Days Grace - Alternative Metal.mp3"
+  },
+  {
+    "id": 152,
+    "titulo": "California",
+    "artista": "Los Vaguens",
+    "genero": "Balada Rock",
+    "duracion": 183,
+    "puntuacion": 10,
+    "archivo": "California - Los Vaguens - Balada Rock.mp3"
+  },
+  {
+    "id": 153,
+    "titulo": "Call Me",
+    "artista": "Blondie",
+    "genero": "New Wave",
+    "duracion": 236,
+    "puntuacion": 10,
+    "archivo": "Call Me - Blondie - New Wave.mp3"
+  },
+  {
+    "id": 154,
+    "titulo": "Cherry Bomb",
+    "artista": "The Runaways",
+    "genero": "Punk Rock",
+    "duracion": 130,
+    "puntuacion": 10,
+    "archivo": "Cherry Bomb - The Runaways - Punk Rock.mp3"
+  },
+  {
+    "id": 155,
+    "titulo": "El Embrujo",
+    "artista": "Orquesta Kaliente de Iquitos",
+    "genero": "Cumbia Sanjuanera",
+    "duracion": 240,
+    "puntuacion": 10,
+    "archivo": "El Embrujo - Orquesta Kaliente de Iquitos - Cumbia Sanjuanera.mp3"
+  },
+  {
+    "id": 156,
+    "titulo": "Esta Noche",
+    "artista": "Orquesta Candela & Pelo D' Ambrosio",
+    "genero": "Cumbia Peruana",
+    "duracion": 237,
+    "puntuacion": 10,
+    "archivo": "Esta Noche - Orquesta Candela & Pelo D' Ambrosio - Cumbia Peruana.mp3"
+  },
+  {
+    "id": 157,
+    "titulo": "Fooled Around and Fell in Love",
+    "artista": "Elvin Bishop",
+    "genero": "Blues Rock",
+    "duracion": 275,
+    "puntuacion": 10,
+    "archivo": "Fooled Around and Fell in Love - Elvin Bishop - Blues Rock.mp3"
+  },
+  {
+    "id": 158,
+    "titulo": "Go All The Way",
+    "artista": "Raspberries",
+    "genero": "Power Pop",
+    "duracion": 198,
+    "puntuacion": 10,
+    "archivo": "Go All The Way - Raspberries - Power Pop.mp3"
+  },
+  {
+    "id": 159,
+    "titulo": "Gold",
+    "artista": "Spandau Ballet",
+    "genero": "New Romantic",
+    "duracion": 228,
+    "puntuacion": 10,
+    "archivo": "Gold - Spandau Ballet - New Romantic.mp3"
+  },
+  {
+    "id": 160,
+    "titulo": "Hero",
+    "artista": "Skillet",
+    "genero": "Alternative Rock",
+    "duracion": 197,
+    "puntuacion": 10,
+    "archivo": "Hero - Skillet - Alternative Rock.mp3"
+  },
+  {
+    "id": 161,
+    "titulo": "Hooked on a Feeling",
+    "artista": "Blue Swede",
+    "genero": "Pop Rock",
+    "duracion": 168,
+    "puntuacion": 10,
+    "archivo": "Hooked on a Feeling - Blue Swede - Pop Rock.mp3"
+  },
+  {
+    "id": 162,
+    "titulo": "I Want You Back",
+    "artista": "The Jackson 5",
+    "genero": "Soul",
+    "duracion": 174,
+    "puntuacion": 10,
+    "archivo": "I Want You Back - The Jackson 5 - Soul.mp3"
+  },
+  {
+    "id": 163,
+    "titulo": "I Was Made For Lovin' You (Slowed + Reverb)",
+    "artista": "Kiss",
+    "genero": "Hard Rock",
+    "duracion": 243,
+    "puntuacion": 10,
+    "archivo": "I Was Made For Lovin' You (Slowed + Reverb) - Kiss - Hard Rock.mp3"
+  },
+  {
+    "id": 164,
+    "titulo": "Impostor Syndrome",
+    "artista": "Sidney Gish",
+    "genero": "Indie Pop",
+    "duracion": 294,
+    "puntuacion": 10,
+    "archivo": "Impostor Syndrome - Sidney Gish - Indie Pop.mp3"
+  },
+  {
+    "id": 165,
+    "titulo": "Jane!",
+    "artista": "The Long Faces",
+    "genero": "Indie Rock",
+    "duracion": 187,
+    "puntuacion": 10,
+    "archivo": "Jane! - The Long Faces - Indie Rock.mp3"
+  },
+  {
+    "id": 166,
+    "titulo": "Judas",
+    "artista": "Lady Gaga",
+    "genero": "Dance-Pop",
+    "duracion": 249,
+    "puntuacion": 10,
+    "archivo": "Judas - Lady Gaga - Dance-Pop.mp3"
+  },
+  {
+    "id": 167,
+    "titulo": "Lejos de ti",
+    "artista": "Pelo D' Ambrosio",
+    "genero": "Cumbia Andina",
+    "duracion": 359,
+    "puntuacion": 10,
+    "archivo": "Lejos de ti - Pelo D' Ambrosio - Cumbia Andina.mp3"
+  },
+  {
+    "id": 168,
+    "titulo": "Los Vaguens - Lo Que Soy",
+    "artista": "Los Vaguens",
+    "genero": "Sin género",
+    "duracion": 162,
+    "puntuacion": 10,
+    "archivo": "Lo Que Soy - Los Vaguens - Balada Rock.mp3"
+  },
+  {
+    "id": 169,
+    "titulo": "Monster",
+    "artista": "Skillet",
+    "genero": "Nu Metal",
+    "duracion": 187,
+    "puntuacion": 10,
+    "archivo": "Monster - Skillet - Nu Metal.mp3"
+  },
+  {
+    "id": 170,
+    "titulo": "Motor Y Motivo",
+    "artista": "Grupo 5",
+    "genero": "Cumbia Peruana",
+    "duracion": 197,
+    "puntuacion": 10,
+    "archivo": "Motor Y Motivo - Grupo 5 - Cumbia Peruana.mp3"
+  },
+  {
+    "id": 171,
+    "titulo": "Mr. Blue Sky",
+    "artista": "Electric Light Orchestra",
+    "genero": "Progressive Pop",
+    "duracion": 302,
+    "puntuacion": 10,
+    "archivo": "Mr. Blue Sky - Electric Light Orchestra - Progressive Pop.mp3"
+  },
+  {
+    "id": 172,
+    "titulo": "My Ordinary Life",
+    "artista": "The Living Tombstone",
+    "genero": "Glitch Hop",
+    "duracion": 245,
+    "puntuacion": 10,
+    "archivo": "My Ordinary Life - The Living Tombstone - Glitch Hop.mp3"
+  },
+  {
+    "id": 173,
+    "titulo": "Pense em Mim",
+    "artista": "Leandro & Leonardo",
+    "genero": "Sertanejo Romantico",
+    "duracion": 199,
+    "puntuacion": 10,
+    "archivo": "Pense em Mim - Leandro & Leonardo - Sertanejo Romantico.mp3"
+  },
+  {
+    "id": 174,
+    "titulo": "Que Pasó",
+    "artista": "Papillón",
+    "genero": "Cumbia Peruana",
+    "duracion": 278,
+    "puntuacion": 10,
+    "archivo": "Que Pasó - Papillón - Cumbia Peruana.mp3"
+  },
+  {
+    "id": 175,
+    "titulo": "Religious Man",
+    "artista": "Mr. Loco",
+    "genero": "Pop Rock",
+    "duracion": 249,
+    "puntuacion": 10,
+    "archivo": "Religious Man - Mr. Loco - Pop Rock.mp3"
+  },
+  {
+    "id": 176,
+    "titulo": "Spirit In The Sky",
+    "artista": "Norman Greenbaum",
+    "genero": "Glam Rock",
+    "duracion": 231,
+    "puntuacion": 10,
+    "archivo": "Spirit In The Sky - Norman Greenbaum - Glam Rock.mp3"
+  },
+  {
+    "id": 177,
+    "titulo": "The Chain (2004 Remaster)",
+    "artista": "Fleetwood Mac",
+    "genero": "Classic Rock",
+    "duracion": 270,
+    "puntuacion": 10,
+    "archivo": "The Chain (2004 Remaster) - Fleetwood Mac - Classic Rock.mp3"
+  },
+  {
+    "id": 178,
+    "titulo": "The Night Begins to Shine",
+    "artista": "B.E.R.",
+    "genero": "Synthwave",
+    "duracion": 211,
+    "puntuacion": 10,
+    "archivo": "The Night Begins to Shine - B.E.R. - Synthwave.mp3"
+  },
+  {
+    "id": 179,
+    "titulo": "The Resistance",
+    "artista": "Skillet",
+    "genero": "Alternative Rock",
+    "duracion": 240,
+    "puntuacion": 10,
+    "archivo": "The Resistance - Skillet - Alternative Rock.mp3"
+  },
+  {
+    "id": 180,
+    "titulo": "The Rubberband Man",
+    "artista": "The Spinners",
+    "genero": "Soul",
+    "duracion": 214,
+    "puntuacion": 10,
+    "archivo": "The Rubberband Man - The Spinners - Soul.mp3"
+  },
+  {
+    "id": 181,
+    "titulo": "Wham Bam Shang-A-Lang",
+    "artista": "Silver",
+    "genero": "Bubblegum Pop",
+    "duracion": 215,
+    "puntuacion": 10,
+    "archivo": "Wham Bam Shang-A-Lang - Silver - Bubblegum Pop.mp3"
+  },
+  {
+    "id": 182,
+    "titulo": "What I've Done",
+    "artista": "Linkin Park",
+    "genero": "Alternative Rock",
+    "duracion": 207,
+    "puntuacion": 10,
+    "archivo": "What I've Done - Linkin Park - Alternative Rock.mp3"
   }
-
 ]

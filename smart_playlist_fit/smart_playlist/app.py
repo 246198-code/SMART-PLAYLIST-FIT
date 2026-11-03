@@ -128,6 +128,14 @@ def leer_metadatos(ruta):
     return meta
 
 
+def metadatos_por_nombre(nombre):
+    """Interpreta nombres con el formato 'Título - Artista - Género'."""
+    partes = os.path.splitext(os.path.basename(nombre))[0].split(" - ")
+    if len(partes) != 3 or any(not parte.strip() for parte in partes):
+        return {"titulo": None, "artista": None, "genero": None}
+    return dict(zip(("titulo", "artista", "genero"), (parte.strip() for parte in partes)))
+
+
 def genero_por_carpeta(carpeta, raiz_escaneo):
     """Si el audio no trae género, usa la subcarpeta de primer nivel: Música/Rock/x.mp3 -> 'Rock'."""
     relativa = os.path.relpath(os.path.abspath(carpeta), raiz_escaneo)
@@ -406,11 +414,14 @@ def procesar_audio(archivo, form, individual):
     archivo.save(ruta)
 
     meta = leer_metadatos(ruta)
+    nombre_meta = metadatos_por_nombre(archivo.filename)
     # Con un solo archivo, lo escrito por el usuario manda; con varios, se usan los metadatos
     manual = (lambda k: (form.get(k) or "").strip()) if individual else (lambda k: "")
-    titulo = manual("titulo") or meta["titulo"] or (os.path.splitext(archivo.filename)[0] if not individual else None)
-    artista = manual("artista") or meta["artista"] or (None if individual else "Desconocido")
-    genero = manual("genero") or meta["genero"] or "Sin género"
+    titulo = manual("titulo") or meta["titulo"] or nombre_meta["titulo"] or (
+        os.path.splitext(archivo.filename)[0] if not individual else None)
+    artista = manual("artista") or meta["artista"] or nombre_meta["artista"] or (
+        None if individual else "Desconocido")
+    genero = manual("genero") or meta["genero"] or nombre_meta["genero"] or "Sin género"
     duracion = meta["duracion"] or (form.get("duracion") if individual else None)
 
     faltan = [n for n, v in (("título", titulo), ("artista", artista), ("duración", duracion)) if not v]
@@ -471,6 +482,7 @@ def api_escanear_carpeta():
             analizados += 1
             origen = os.path.join(raiz, nombre)
             meta = leer_metadatos(origen)
+            nombre_meta = metadatos_por_nombre(nombre)
             if not meta["duracion"]:
                 omitidos.append(f"{nombre}: no se pudo leer la duración")
                 continue
@@ -492,9 +504,9 @@ def api_escanear_carpeta():
 
             catalogo.append({
                 "id": siguiente_id(catalogo),
-                "titulo": meta["titulo"] or os.path.splitext(nombre)[0],
-                "artista": meta["artista"] or "Desconocido",
-                "genero": meta["genero"] or genero_por_carpeta(raiz, raiz_escaneo),
+                "titulo": meta["titulo"] or nombre_meta["titulo"] or os.path.splitext(nombre)[0],
+                "artista": meta["artista"] or nombre_meta["artista"] or "Desconocido",
+                "genero": meta["genero"] or nombre_meta["genero"] or genero_por_carpeta(raiz, raiz_escaneo),
                 "duracion": meta["duracion"],
                 "puntuacion": PUNTUACION_DEFECTO,
                 "archivo": destino,

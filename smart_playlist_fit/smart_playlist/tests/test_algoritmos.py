@@ -279,6 +279,22 @@ class TestAPI(unittest.TestCase):
         self.assertEqual(generos["a.wav"], "Rock")
         self.assertEqual(generos["suelto.wav"], "Sin género")
 
+    def test_escaneo_extrae_titulo_artista_y_genero_del_nombre(self):
+        raiz = os.path.join(self.tmp, "Musica")
+        os.makedirs(raiz)
+        import wave
+        ruta = os.path.join(raiz, "The Chain - Fleetwood Mac - Classic Rock.wav")
+        with wave.open(ruta, "wb") as audio:
+            audio.setnchannels(1)
+            audio.setsampwidth(2)
+            audio.setframerate(44100)
+            audio.writeframes(b"\0\0" * 44100)
+        r = self.cliente.post("/api/escanear-carpeta", json={"ruta": raiz}).get_json()
+        self.assertEqual(r["agregadas"], 1)
+        cancion = self.cliente.get("/api/canciones").get_json()["canciones"][-1]
+        self.assertEqual((cancion["titulo"], cancion["artista"], cancion["genero"]),
+                         ("The Chain", "Fleetwood Mac", "Classic Rock"))
+
     def test_eliminar_cancion_y_su_audio(self):
         with open(os.path.join(app_modulo.AUDIO_DIR, "x.wav"), "wb") as f:
             f.write(b"RIFF")
